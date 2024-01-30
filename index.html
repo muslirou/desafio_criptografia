@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Criptografar um texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="./img/Frame 6.svg" alt="Logo Alura">
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__insercao">
+                <textarea type="text" class="apresentacao__insercao__texto" id="apresentacao__insercao__texto" placeholder="Digite seu texto"></textarea>
+                <div class="apresentacao__alerta">
+                    <img class="apresentacao__alerta__imagem" src="./img/bi_exclamation-circle-fill.svg">
+                    <h6 class="apresentacao__alerta__texto">Apenas letras minúsculas e sem acento.</h6>
+                </div>
+                <div class="apresentacao_botoes">                
+                 <button onclick="codificarTexto()" class="apresentacao_botoes_codificar">Criptografar</button>
+                 <button onclick="descodificarTexto()" class="apresentacao_botoes_descodificar">Descriptografar</button>
+                </div>
+        </section>
+        <section>
+            <div class="apresentacao__mensagem">
+                <textarea type="text" class='apresentacao__mensagem__texto' id='res'></textarea>
+                    <div id="tela__inicial">    
+                <img class="apresentacao__imagem" src="./img/High quality products 1 1.svg" alt="Imagem de pessoa buscando algo">
+                <h3 class="titulo"><strong></strong></h3>
+                <p class="paragrafo"></p>
+                    </div>
+                <button onclick="copiarTexto()" class="apresentacao__mensagem__copiar" id="copy">Copiar</button>
+                
+            </div>
+
+        </section>
+        <script src="app.js" defer></script>
+    </main>
+    <footer class="rodape">Desenvolvido por Murilo Domingues</footer>    
+</body>
+</html>

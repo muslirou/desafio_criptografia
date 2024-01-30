@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 2%;
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    width: auto;
+}
+
+.apresentacao__insercao {
+    padding: 1% 0 8% 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao__insercao__texto {
+    width: 41.5rem;
+    height: 35.5rem;
+    font-size: 2rem;
+    color: #0A3871;
+    text-decoration: none;
+    align-items: flex-start;
+    border: 0px;
+    background-color: #E5E5E5;
+    font-family: "Inter", sans-serif;
+}
+
+.apresentacao__alerta {
+    display: flex;
+    align-items: flex-start;
+    gap: 1%;
+    padding: 1rem 0 0 0;
+}
+
+.apresentacao__alerta__texto {
+    font-family: "Inter", sans-serif;
+    font-size: 12;
+    color: gray;
+}
+
+.apresentacao_botoes {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.apresentacao_botoes_codificar {
+    width: 19.5rem;
+    height: 4.2rem;
+    background-color: #0A3871;
+    color: #D8DFE8;
+    border-radius: 1.5rem;
+    font-family: "Inter", sans-serif;
+}
+
+.apresentacao_botoes_descodificar {
+    width: 19.5rem;
+    height: 4.2rem;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 1.5rem;
+    font-family: "Inter", sans-serif;
+}
+
+.apresentacao__mensagem {
+    display: inline-block;
+    position: relative;
+    align-items: center;
+}
+
+.apresentacao__mensagem__texto {
+    width: 30rem;
+    height: 40rem;
+    background-color: #ffffff;
+    color: #495057;
+    border-radius: 1.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    border: 0px;
+}
+
+.titulo {
+    position: absolute;
+    top: 420px;
+    right: 80px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+.paragrafo {
+    position: absolute;
+    top: 460px;
+    right: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.apresentacao__imagem {
+    position: absolute;
+    right: 21%;
+    top: 20%;
+    width: 300px;
+}
+
+.apresentacao__mensagem__copiar {
+    width: 19.5rem;
+    height: 4.2rem;
+    background-color: #ffffff;
+    color: #0A3871;
+    border-radius: 1.5rem;
+    font-family: "Inter", sans-serif;
+    border-color: #0A3871;
+    box-shadow: none;
+    position: absolute;
+    right: 18%;
+    top: 85%;
+}
+
+.rodape {
+    background-color: #0A3871;
+    color: #E5E5E5;
+    padding: 12px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1391px) {
+    .cabecalho {
+        padding: 2%;
+    }
+  
+    .apresentacao {
+        flex-direction: column;
+        align-items: center;
+        gap: 0rem;
+    }
+
+    .apresentacao__insercao{
+        padding: auto;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .apresentacao_botoes {
+        justify-content: center ;
+    }
+
+    .apresentacao__insercao__texto {
+        width: 35rem;
+        align-items: center;
+        padding: 0%;
+    }
+
+    .apresentacao__mensagem {
+        padding-bottom: 2rem;
+        padding-top: 0%;
+    }
+    .apresentacao__mensagem__texto {
+        width: 35rem;
+        height: 20rem;
+        align-items: center;
+    }
+
+    .titulo {
+        top: 150px;
+        right: 117px;
+    }
+
+    .paragrafo {
+        top: 180px;
+        right: 45px;
+    }
+
+    .apresentacao__imagem {
+        display: none;
+    }
+
+    .apresentacao__mensagem__copiar {
+        top: 245px;
+        right: 7.5rem;
+    }
+
+}
+
+@media (max-width: 531px) {
+
+  
+    .apresentacao {
+        flex-direction: column;
+    }
+
+    .apresentacao__insercao{
+        padding: auto;
+        align-items: center;
+    }
+
+    .apresentacao_botoes {
+        flex-direction: column;
+    }
+
+    .apresentacao__insercao__texto {
+        width: 27rem;
+        align-items: center;
+    }
+
+    .apresentacao__imagem {
+        display: none;
+    }
+
+    .apresentacao__mensagem__texto {
+        width: 27rem;
+        align-self: center;
+    }
+
+    .titulo {
+        text-align: center;
+        top: 100px;
+        right: 55px;
+    }
+
+    .paragrafo {
+        top: 140px;
+        right: 10px;
+    }
+
+    .apresentacao__mensagem__copiar {
+        width: 16rem;
+        height: 4.2rem;
+        right: 85px;
+    }
+
+}
