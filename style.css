@@ -198,7 +198,7 @@ body {
 
 }
 
-@media (max-width: 531px) {
+@media (max-width: 400px) {
 
   
     .apresentacao {
@@ -215,7 +215,7 @@ body {
     }
 
     .apresentacao__insercao__texto {
-        width: 27rem;
+        width: 17rem;
         align-items: center;
     }
 
@@ -224,18 +224,18 @@ body {
     }
 
     .apresentacao__mensagem__texto {
-        width: 27rem;
+        width: 17rem;
         align-self: center;
     }
 
     .titulo {
         text-align: center;
         top: 100px;
-        right: 55px;
+        right: 5px;
     }
 
     .paragrafo {
-        top: 140px;
+        top: 160px;
         right: 10px;
     }
 
