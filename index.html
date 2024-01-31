@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio - Criptografar um texto</title>
+    <title>Desafio Alura - #challengeonedecodificador5</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,27 +13,25 @@
     <main class="apresentacao">
         <section class="apresentacao__insercao">
                 <textarea type="text" class="apresentacao__insercao__texto" id="apresentacao__insercao__texto" placeholder="Digite seu texto"></textarea>
-                <div class="apresentacao__alerta">
-                    <img class="apresentacao__alerta__imagem" src="./img/bi_exclamation-circle-fill.svg">
-                    <h6 class="apresentacao__alerta__texto">Apenas letras minúsculas e sem acento.</h6>
+                <div class="apresentacao__insercao__alerta">
+                    <img class="apresentacao__insercao__alerta__imagem" src="./img/bi_exclamation-circle-fill.svg">
+                    <h6 class="apresentacao__insercao__alerta__texto">Apenas letras minúsculas e sem acento.</h6>
                 </div>
-                <div class="apresentacao_botoes">                
-                 <button onclick="codificarTexto()" class="apresentacao_botoes_codificar">Criptografar</button>
-                 <button onclick="descodificarTexto()" class="apresentacao_botoes_descodificar">Descriptografar</button>
+                <div class="apresentacao_insercao__botoes">                
+                 <button onclick="codificarTexto()" class="apresentacao_insercao__botoes__codificar">Criptografar</button>
+                 <button onclick="descodificarTexto()" class="apresentacao_insercao__botoes__descodificar">Descriptografar</button>
                 </div>
         </section>
         <section>
-            <div class="apresentacao__mensagem">
-                <textarea type="text" class='apresentacao__mensagem__texto' id='res'></textarea>
-                    <div id="tela__inicial">    
-                <img class="apresentacao__imagem" src="./img/High quality products 1 1.svg" alt="Imagem de pessoa buscando algo">
-                <h3 class="titulo"><strong></strong></h3>
-                <p class="paragrafo"></p>
+            <div class="apresentacao__retorno">
+                <textarea type="text" class='apresentacao__retorno__texto' id='res'></textarea>
+                    <div id="apresentacao__retorno__telaInicial">    
+                <img class="apresentacao__retorno__imagem" src="./img/High quality products 1 1.svg" alt="Imagem de pessoa buscando algo">
+                <h3 class="apresentacao__retorno__titulo"><strong></strong></h3>
+                <p class="apresentacao__retorno__paragrafo"></p>
                     </div>
-                <button onclick="copiarTexto()" class="apresentacao__mensagem__copiar" id="copy">Copiar</button>
-                
+                <button onclick="copiarTexto()" class="apresentacao__retorno__copiar" id="copy">Copiar</button>                
             </div>
-
         </section>
         <script src="app.js" defer></script>
     </main>

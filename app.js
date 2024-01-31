@@ -1,6 +1,6 @@
 alert('Insira somente letras minúsculas e sem acento');
 
-document.getElementById("copy").style.display = "none";
+document.getElementById("copy").style.display = "inline";
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
@@ -46,7 +46,7 @@ function codificarTexto () {
     let campo = document.getElementById('res')
     campo.innerHTML = novoTexto;
 
-    document.getElementById("tela__inicial").style.display = "none";
+    document.getElementById("apresentacao__retorno__telaInicial").style.display = "none";
     document.getElementById("copy").style.display = "inline";
     
 }
@@ -88,7 +88,7 @@ function descodificarTexto () {
     let campo = document.getElementById('res')
     campo.innerHTML = textoDescodificado;
 
-    document.getElementById("tela__inicial").style.display = "none";
+    document.getElementById("apresentacao__retorno__telaInicial").style.display = "none";
     document.getElementById("copy").style.display = "inline";
     
 }
