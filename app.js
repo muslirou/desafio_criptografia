@@ -1,6 +1,6 @@
 alert('Insira somente letras minúsculas e sem acento');
 
-document.getElementById("copy").style.display = "inline";
+document.getElementById("copy").style.display = "none";
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
